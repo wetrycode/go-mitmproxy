@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/proxy"
 )
 
 type mapLocalTo struct {

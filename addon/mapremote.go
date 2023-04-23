@@ -5,10 +5,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
 	"github.com/samber/lo"
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/match"
+	"github.com/wetrycode/go-mitmproxy/proxy"
 )
 
 // Path map rule:

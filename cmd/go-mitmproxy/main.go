@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/addon"
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
-	"github.com/lqqyt2423/go-mitmproxy/web"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/addon"
+	"github.com/wetrycode/go-mitmproxy/proxy"
+	"github.com/wetrycode/go-mitmproxy/web"
 )
 
 type Config struct {

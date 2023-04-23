@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/proxy"
 )
 
 func loadConfigFromFile(filename string) (*Config, error) {

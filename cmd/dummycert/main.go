@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lqqyt2423/go-mitmproxy/cert"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/cert"
 )
 
 // 生成假的/用于测试的服务器证书

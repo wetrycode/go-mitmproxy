@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/cert"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/cert"
 )
 
 // 模拟了标准库中 server 运行，目的是仅通过当前进程内存转发 socket 数据，不需要经过 tcp 或 unix socket

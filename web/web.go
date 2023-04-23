@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
 	log "github.com/sirupsen/logrus"
+	"github.com/wetrycode/go-mitmproxy/proxy"
 )
 
 //go:embed client/build
